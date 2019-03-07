@@ -34,5 +34,6 @@ module constants
     real(dp), parameter :: eV2J         =  one / J2eV						                                        ! 1 eV       = X Joules
     real(dp), parameter :: light_cm     =  2.99792458e10_dp                                             ! velocity of light in cm/s
     real(dp), parameter :: planck_SI    =  planck * eV2J                                                ! planck constant in J.s
-
+    real(dp), parameter :: kB_SI        =  kB * eV2J                                                    ! boltzmann constant in J/K
+    
 end module constants 
