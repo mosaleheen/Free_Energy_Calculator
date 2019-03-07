@@ -12,8 +12,8 @@ Input File formats
 ==================
 1. For stationary point surface species, input files can be named as reac-1,2,3... or prod-1,2,3...depending on what they are. Sample format is shown below. Here the first line denotes the SCF energy in eV and the rest are associated wavenumbers (1/cm) for that species.
 
--421.24267709277507
-168.823811
+-421.24267709277507 . 
+168.823811 . 
 115.320187
 19.695854
 98.440556
