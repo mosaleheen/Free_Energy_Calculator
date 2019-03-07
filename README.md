@@ -3,6 +3,8 @@ This repository includes the code to calculate the free energies and rate consta
 
 Things to look out for
 ======================
+1. Author does not guarantee that this package is free from error. Neither do I accept responsibility
+   for any loss or damage that results from its use.
 1. This code uses a wave number cutoff of 100/cm. Modify it if needed on FEGeneralProcedures.f90 file, line 90 and 91.
 2. Chage the temperature and intervals you want to apply for in FEMain.f90 file, line 26 and 27.
 
