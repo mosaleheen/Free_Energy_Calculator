@@ -47,6 +47,7 @@ Input File formats
 2. For a saddle point, the file name should be ts-1,2,3...etc. File format is same as before, except do not include the imaginary wavenumber value in the input file.
 3. For a gas phase species, the file name should be Greac-1,2,3.. or Gprod-1,2,3... File format for a gas phase species is shown below. Here, the number on the first line represents the Zero Point Energy in eV, the sencod line represents the molecular weight of the species in kg/mole, and the following values in 2 columns represents temperature and partition function (q) at the that temperature.  
 
+-7.14516199804438
 0.275693597480214
 0.00202
 273.00    1.3865793073029E+05
