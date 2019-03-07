@@ -4,13 +4,13 @@ This repository includes the code to calculate the free energies and rate consta
 Things to look out for
 ======================
 * Author does not guarantee that this package is free from error. Neither does he accept responsibility
-   for any loss or damage that results from its use.
+  for any loss or damage that results from its use.
 * This code uses a wave number cutoff of 100/cm. Modify it if needed on FEGeneralProcedures.f90 file, line 90 and 91.
-* Chage the temperature and intervals you want to apply for in FEMain.f90 file, line 26 and 27.
+* Chage the temperature range and interval you want to apply for in FEMain.f90 file, line 26 and 27.
 
 Input File formats
 ==================
-* For stationary point surface species, input files can be named as reac-1,2,3... or prod-1,2,3...depending on what they are. Sample format is shown below. Here the first line denotes the SCF energy in eV and the rest are associated wavenumbers (1/cm) for that species.
+* For stationary point surface species, input files should be named as reac-1,2,3... or prod-1,2,3..etc. A sample format is shown below. Here the first line denotes the SCF energy in eV and the rest are associated wavenumbers (1/cm) for that species.
 
 -421.24267709277507<br/>
 168.823811<br/>
@@ -44,9 +44,9 @@ Input File formats
 3451.952704<br/>
 3674.108309<br/>
 
-* For a saddle point, the file name should be ts-1,2,3...etc. File format is same as before, except do not include the imaginary wavenumber value in the input file.
+* For a saddle point, the file name should be ts-1,2,3...etc. File format is same as before, do not include the imaginary wavenumber value in the input file.
 
-* For a gas phase species, the file name should be Greac-1,2,3.. or Gprod-1,2,3... File format for a gas phase species is shown below. Here, the number on the first line represents the Zero Point Energy in eV, the sencod line represents the molecular weight of the species in kg/mole, and the following values in 2 columns represents temperature and partition function (q) at the that temperature.  
+* For a gas phase species, the file name should be Greac-1,2,3.. or Gprod-1,2,3... File format for a gas phase species is shown below. Here, the number on the first line represents the Zero Point Energy in eV, the sencod line represents the molecular weight of the species in kg/mole, and the following values in 2 columns represent temperature and total partition function (q) at the correspoinding temperature, respectively.  
 
 -7.14516199804438<br/>
 0.275693597480214<br/>
