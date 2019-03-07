@@ -15,8 +15,9 @@ module constants
     real(dp), parameter :: one  = 1.0_dp 
 
     ! Physical constants and conversion factors
-    ! Values obtained from Peter J. Mohr et al.,Rev. Mod. Phys., 2016    
-
+    ! Values obtained from Peter J. Mohr et al.,Rev. Mod. Phys., 2016
+    
+    real(dp), parameter :: Pi           =  3.1415926536_dp
     real(dp), parameter :: kB           =  8.6173303e-5_dp                                             	! boltzmann constant in eV/K
     real(dp), parameter :: planck       =  4.135667662e-15_dp                                         	! planck constant in eV.s
     real(dp), parameter :: light_m      =  2.99792458e8_dp                                             	! velocity of light in m/s
