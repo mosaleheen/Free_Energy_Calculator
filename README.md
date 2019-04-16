@@ -6,7 +6,7 @@ Things to look out for
 * Author does not guarantee that this package is free from error. Neither does he accept responsibility
   for any loss or damage that results from its use.
 * This code uses a wave number cutoff of 100/cm. Modify it if needed on FEGeneralProcedures.f90 file, line 90 and 91.
-* Chage the temperature range and interval you want to apply for in FEMain.f90 file, line 26 and 27.
+* Change the temperature range and interval you want to apply for in FEMain.f90 file, line 26 and 27.
 
 Input File formats
 ==================
