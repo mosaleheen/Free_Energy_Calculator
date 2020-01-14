@@ -1,4 +1,4 @@
-# Free_Energy_Calculator
+# free_energy_calculator
 This repository includes the code to calculate the free energies and rate constants for an elementary surface reaction, adsorption desorption processes, or a simple vacuum phase reaction. 
 
 Things to look out for
