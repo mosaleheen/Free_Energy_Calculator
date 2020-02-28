@@ -3,7 +3,7 @@
 !                          Purpose: Check the water model from a CONFIG file format                                              !
 !                           Author: Mohammad Shamsus Saleheen, Department of Chemical Engineering,USC                            !
 !                             Date: 04.11.15                                                                                     !
-!                     Modification:                                                                                              !
+!                     Modification: Need to account for the periodicity of the box                                                                                             !
 !          Reasons of Modification:                                                                                              !
 !                            Notes:                                                                                              !
 !                                                                                                                                !
